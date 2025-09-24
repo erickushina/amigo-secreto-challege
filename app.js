@@ -18,3 +18,14 @@ function agregarAmigo() {
     };
     return;
 }
+
+function actualizarListaAmigos() {
+    const listaAmigos = document.getElementById('listaAmigos');
+    listaAmigos.innerHTML = "";                            //Se limpia la lista exstente
+    for(let i = 0; i < listaDeAmigos.length; i++) {        //Recorrido de la lista
+        const elemento = document.createElement('li');
+        elemento.innerHTML = `${listaDeAmigos[i]}`
+        listaAmigos.append(elemento);
+    };
+    return;
+}
