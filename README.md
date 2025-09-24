@@ -18,6 +18,8 @@ Este proyecto fue desarrollado utilizando las siguientes herramientas y lenguaje
 - **Visual Studio Code** – Editor de código principal
 ---
 
+## Puedes eccder al deploy del proyecto mediante el siguiente link:  
+`https://erickushina.github.io/amigo-secreto-challege/`
 ## ✒ Autor del proyecto
 
 **Erick Ushiña**  
