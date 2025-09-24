@@ -16,6 +16,7 @@ function agregarAmigo() {
         listaDeAmigos.push(amigo);
         limpiarCaja();
     };
+    actualizarListaAmigos();
     return;
 }
 
@@ -41,3 +42,4 @@ function sortearAmigo() {
     resultado.innerHTML = `Que bien!, te tocó a:  ${amigoSecreto}`; 
     return;   
 }
+
