@@ -29,3 +29,15 @@ function actualizarListaAmigos() {
     };
     return;
 }
+
+function sortearAmigo() {
+    if(listaDeAmigos.length == 0) {
+        alert('No hay amigos aún.');
+        return;
+    }
+    const indice = Math.floor(Math.random() * listaDeAmigos.length);        //Genero un índice aleatorio.
+    const amigoSecreto = listaAmigos[indice];                            //Obtengo el nombre para mostrar el resultado
+    const resultado = document.getElementById('resultado');
+    resultado.innerHTML = `Que bien!, te tocó a:  ${amigoSecreto}`; 
+    return;   
+}
